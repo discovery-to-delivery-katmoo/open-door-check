@@ -1,0 +1,3 @@
+[functions.stripe-webhook]
+# Stripe calls this without a user sign-in; the signature check in the code protects it.
+verify_jwt = false

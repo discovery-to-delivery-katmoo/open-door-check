@@ -1,0 +1,14 @@
+{
+  "name": "open-door-check",
+  "description": "Open Door Check: a free, read-only security check for apps built with AI tools.",
+  "owner": {
+    "name": "Kat Moore"
+  },
+  "plugins": [
+    {
+      "name": "open-door-check",
+      "source": "./plugins/open-door-check",
+      "description": "Find what's left open before real users arrive. A read-only security check that explains what it finds in plain words."
+    }
+  ]
+}

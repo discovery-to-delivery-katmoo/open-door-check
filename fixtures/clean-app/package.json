@@ -1,0 +1,11 @@
+{
+  "name": "studio-classes",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.81.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": { "vite": "^7.2.0", "typescript": "^5.9.0" }
+}

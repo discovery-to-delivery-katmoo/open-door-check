@@ -1,0 +1,12 @@
+{
+  "name": "open-door-check",
+  "displayName": "Open Door Check",
+  "version": "0.1.3",
+  "description": "Find what's left open before real users arrive. Your AI assistant reads your project, changes nothing, and tells you in plain words what could let strangers in.",
+  "author": {
+    "name": "Kat Moore"
+  },
+  "repository": "https://github.com/discovery-to-delivery-katmoo/open-door-check",
+  "license": "CC-BY-NC-4.0",
+  "keywords": ["security", "checklist", "supabase", "firebase", "lovable", "read-only"]
+}
