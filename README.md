@@ -4,24 +4,37 @@ Find what's left open before real users arrive.
 
 A free security check for apps built with AI tools such as Lovable, Bolt, Cursor and Claude Code. Your AI assistant reads your project, changes nothing, and tells you in plain words what could let strangers in: secret keys in the wrong place, data anyone can read, files anyone can download, admin actions anyone can call. For each problem you get a ready-made prompt to fix it, or a note that a second pair of eyes is needed.
 
-It takes about 10 minutes. You don't need to know how to code.
+On a small app it takes a few minutes. You don't need to know how to code.
 
 ## What you get back
 
 ```markdown
-### L3 · Every private note can be read by everyone
-What could happen: any person, signed in or not, can read every note every other person has written about their bookings.
+### L3 · Everyone can read every person's private notes
+What could happen: anyone, even someone not signed in, can read the private notes each person writes about their bookings.
 How sure: seen in the code, not confirmed in the live app
-Evidence: `supabase/migrations/20261101000000_init.sql`, lines 32 to 33:
-  `create policy "Notes are readable" on public.notes`
-  `for select using (true);`
-A policy is one access rule. `using (true)` means "allow everyone", even though line 24 calls these "Private notes each person writes".
-[The full report then gives a fix prompt to paste, a two-account test and a written undo step.]
+Evidence: supabase/migrations/20261101000000_init.sql, lines 24, 32 and 33:
+  -- Private notes each person writes about their bookings
+  create policy "Notes are readable" on public.notes
+    for select using (true);
+Latest change checked: no later changes
+[The full report then gives a fix prompt in its own copy box, a two-account test and a written undo step.]
 ```
 
+> Found: 8 launch blockers (4 with a fix prompt, 4 needing a second pair of eyes). Do these first: L1, L2, L4.
+>
 > The other checks found nothing in what could be checked. This isn't a guarantee that your app is secure.
 
 See a full example report: [examples/supabase-leaky-report.md](examples/supabase-leaky-report.md). It comes from a test app with open doors put in on purpose.
+
+A report with problems can run to several pages. Every problem has the same layout, and part 5 tells you which to fix first.
+
+Each finding says how sure the check is:
+- **Seen in the code:** the code itself shows the problem. It isn't confirmed in your live app.
+- **Likely:** the code points to a problem, but the deciding part is a setting outside the code.
+- **Couldn't check from code:** the answer lives in a dashboard; the report says where to look.
+- **Not found:** nothing turned up in what was read.
+
+On a big app, the check may read only part of your project. Look for "Read in full: X of Y" near the top. A clean result after a short look means little.
 
 ## How to run it
 
@@ -62,10 +75,11 @@ It knows Supabase and Firebase in detail, and apps that call an AI model. If you
 - It doesn't test your live app, sign in, or contact anything outside your project.
 - It can't see dashboard settings. Those go in a "couldn't check from code" list, with where to look.
 - It doesn't change anything. Fixes are prompts you choose to paste.
+- Testing a fix is up to you. Use test accounts and test mode only, never real people's accounts or real payments.
 
 ## When you need a second pair of eyes
 
-Some fixes could lock people out, or depend on how your product works: shared data, teams, roles, payment logic, or AI that takes actions. For those, the report says so instead of giving a fix prompt. Ask an experienced developer to look at that part before you change it.
+Some fixes could lock people out, or depend on how your product works: shared data, teams, roles, payment logic, or AI that takes actions. For those, the report says so instead of giving a fix prompt, and gives you one question to ask. Send an experienced developer the finding, its evidence and a link to this checklist, with that question. A good developer can answer it in one short session.
 
 ## Keep your report private
 
@@ -73,6 +87,6 @@ The report may describe weak spots in your app. Please don't post screenshots of
 
 ## About
 
-Made by Kat Moore. Version 0.1.3, November 2026. See [CHANGELOG.md](CHANGELOG.md) for what changed.
+Made by Kat Moore. Version 0.1.4, November 2026. See [CHANGELOG.md](CHANGELOG.md) for what changed.
 
 Licence: [CC BY-NC 4.0](LICENSE). You can use, share and adapt it for free, with credit, for non-commercial use.

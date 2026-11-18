@@ -46,6 +46,7 @@ for (const sentence of [
   "Nothing was found in what could be checked. This isn't a guarantee that your app is secure.",
   "The other checks found nothing in what could be checked. This isn't a guarantee that your app is secure.",
   "Report complete (7 of 7 parts)",
+  "This was a partial check. I read [X] of [Y] database files in full.",
   "I'll read your project only. I won't change anything.",
 ]) {
   check(checklist.includes(sentence), `Fixed sentence missing: "${sentence}"`);

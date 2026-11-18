@@ -1,5 +1,17 @@
 # Changelog
 
+## 0.1.4 (15 Nov 2026)
+
+After an independent review of three sample reports, read as someone who doesn't code:
+- The result sentence depends on coverage: a partial check says how much was read and that it says nothing about the rest
+- Part 5 starts with how many launch blockers were found and which three to fix first
+- Each finding shows the latest file checked, and second-pair-of-eyes findings give one question to ask a developer
+- "Check it yourself" only uses clicking through the app with test accounts or reading a dashboard: no console, no code, no real emails or payments
+- Fix prompts: the prompt alone goes in a copy box; every file it names must be in the evidence; a limit on AI never blocks the person's main action; undo steps say when they reopen the problem
+- Plainer words: no unneeded frameworks, error codes or commands; no arrows, slashes or dashes in place of words
+- Fixed headings, coverage written as "Read in full: X of Y", at most 4 quoted lines per finding
+- README: what the labels mean, how long reports can be, and what to send a developer
+
 ## 0.1.3 (15 Nov 2026)
 
 After a test on a real app in Lovable (checklist 0.1.1): it reported a view as open to everyone from one database file, but a later file had already switched on `security_invoker` for it. New rule: later database files win; search them for changes to the same object before reporting.
