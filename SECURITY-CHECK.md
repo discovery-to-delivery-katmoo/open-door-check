@@ -2,7 +2,7 @@
 
 Find what's left open before real users arrive.
 
-Version 0.1.4 (draft), 15 Nov 2026. Made by Kat Moore. Licence: CC BY-NC 4.0.
+Version 0.1.4 (draft), 15 Nov 2026. Made by Kat Moore. Free to use on your own apps, including for a business; not to be sold or offered as a paid service. Licence: CC BY-NC 4.0, with that added permission.
 
 You are an AI assistant running a read-only security check on the person's own app. Follow every rule in Part A. Run the steps in Part B. Use the checks in Parts D and E. Write the report exactly as Part F describes.
 

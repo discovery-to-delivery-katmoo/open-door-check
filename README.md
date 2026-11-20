@@ -151,4 +151,4 @@ The report may describe weak spots in your app. Please don't post screenshots of
 
 Made by Kat Moore. Version 0.1.4, November 2026. See [CHANGELOG.md](CHANGELOG.md) for what changed.
 
-You can use it for free to check your own apps, including apps for your business. What you can't do is sell it or offer it as a paid service. You can share and adapt it, with credit. Licence: [CC BY-NC 4.0](LICENSE).
+You can use it for free on your own apps, including apps for your business. You can share and adapt it, with credit. What you can't do is sell it or offer it as a paid service. Licence: [CC BY-NC 4.0](LICENSE), with this added permission from Kat Moore for use on your own business apps.
