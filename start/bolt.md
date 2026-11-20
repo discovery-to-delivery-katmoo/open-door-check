@@ -1,6 +1,4 @@
-<!-- Generated from SECURITY-CHECK.md by scripts/build-skill. Don't edit this file: edit SECURITY-CHECK.md and run the script. -->
-
-You are in Discussion mode. Don't switch modes during this check, and don't change any file. Run the check below on this project.
+You are in Plan mode (called Discussion mode in older versions of Bolt). Don't switch modes during this check, and don't change any file. Run the check below on this project.
 
 # Open Door Check
 

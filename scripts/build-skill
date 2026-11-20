@@ -23,7 +23,7 @@ const skillFrontmatter = [
 const startLines = {
   "lovable.md":
     "You are in Chat mode. Don't switch to Plan mode or edit mode during this check, and don't change any file.",
-  "bolt.md": "You are in Discussion mode. Don't switch modes during this check, and don't change any file.",
+  "bolt.md": "You are in Plan mode (called Discussion mode in older versions of Bolt). Don't switch modes during this check, and don't change any file.",
   "cursor.md": "You are in Ask mode. Don't switch to Agent mode during this check, and don't change any file.",
   "claude-chat.md":
     "The project is in the zip I uploaded. Mark the report \"Partial check\": you can't see live settings or anything missing from the zip.",
@@ -34,7 +34,7 @@ const outputs = {
 };
 for (const [file, line] of Object.entries(startLines)) {
   outputs[`start/${file}`] =
-    `${notice}\n\n${line} Run the check below on this project.\n\n${checklist}`;
+    `${line} Run the check below on this project.\n\n${checklist}`;
 }
 
 const check = process.argv.includes("--check");

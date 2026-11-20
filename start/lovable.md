@@ -1,5 +1,3 @@
-<!-- Generated from SECURITY-CHECK.md by scripts/build-skill. Don't edit this file: edit SECURITY-CHECK.md and run the script. -->
-
 You are in Chat mode. Don't switch to Plan mode or edit mode during this check, and don't change any file. Run the check below on this project.
 
 # Open Door Check

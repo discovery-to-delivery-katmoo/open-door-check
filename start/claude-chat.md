@@ -1,5 +1,3 @@
-<!-- Generated from SECURITY-CHECK.md by scripts/build-skill. Don't edit this file: edit SECURITY-CHECK.md and run the script. -->
-
 The project is in the zip I uploaded. Mark the report "Partial check": you can't see live settings or anything missing from the zip. Run the check below on this project.
 
 # Open Door Check
