@@ -141,6 +141,8 @@ It knows Supabase and Firebase in detail, and apps that call an AI model. If you
 
 Open Door Check is one of a set of free tools, one for each step of building a product, from first idea to release. See them all at [kathrynmoore.eu](https://www.kathrynmoore.eu/#products).
 
+If it saved you time or trouble, you can support future tools through [GitHub Sponsors](https://github.com/sponsors/katmoo-works).
+
 ## When you need a second pair of eyes
 
 Some fixes could lock people out, or depend on how your product works: shared data, teams, roles, payment logic, or AI that takes actions. For those, the report says so instead of giving a fix prompt, and gives you one question to ask. Send an experienced developer the finding, its evidence and a link to this checklist, with that question. A good developer can answer it in one short session.
