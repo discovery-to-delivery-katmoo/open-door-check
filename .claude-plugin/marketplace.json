@@ -1,8 +1,10 @@
 {
   "name": "open-door-check",
-  "description": "Open Door Check: a free, read-only security check for apps built with AI tools.",
   "owner": {
     "name": "Kat Moore"
+  },
+  "metadata": {
+    "description": "Open Door Check: a free, read-only security check for apps built with AI tools."
   },
   "plugins": [
     {
