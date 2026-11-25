@@ -147,7 +147,9 @@ Some fixes could lock people out, or depend on how your product works: shared da
 
 Don't know one? Freelance sites list developers who review security for apps built on Supabase or Firebase. Ask for a short, paid review of the specific findings rather than a full audit.
 
-## Keep your report private
+## Privacy
+
+Open Door Check doesn't collect, store or send anything. It runs inside the AI tool you already use, which reads your project, so that tool's own privacy terms apply. The report stays in your project unless you share it.
 
 The report may describe weak spots in your app. Please don't post screenshots of it.
 

@@ -8,5 +8,16 @@
   },
   "repository": "https://github.com/discovery-to-delivery-katmoo/open-door-check",
   "license": "CC-BY-NC-4.0",
-  "keywords": ["security", "checklist", "supabase", "firebase", "lovable", "read-only"]
+  "keywords": [
+    "security",
+    "checklist",
+    "supabase",
+    "firebase",
+    "lovable",
+    "read-only"
+  ],
+  "homepage": "https://www.kathrynmoore.eu/#products",
+  "documentationUrl": "https://github.com/discovery-to-delivery-katmoo/open-door-check#readme",
+  "supportUrl": "https://github.com/discovery-to-delivery-katmoo/open-door-check/issues",
+  "privacyPolicyUrl": "https://github.com/discovery-to-delivery-katmoo/open-door-check#privacy"
 }
