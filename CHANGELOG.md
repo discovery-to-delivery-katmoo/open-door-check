@@ -2,6 +2,7 @@
 
 ## 0.1.6 (26 Nov 2026)
 
+- The version line no longer says "(draft)".
 - Clearer licence: free on your own apps and on apps you build or fix for clients, including paid work; selling it, or checks made with it, as a product or service is not allowed.
 - The Lovable, Bolt and Cursor versions ask the assistant to check its mode and stop if it can edit, instead of telling it which mode it is in.
 

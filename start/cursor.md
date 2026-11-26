@@ -4,7 +4,7 @@ This check must run in Cursor's Ask mode. If you can edit files right now, stop 
 
 Find what's left open before real users arrive.
 
-Version 0.1.6 (draft), 26 Nov 2026. Made by Kat Moore. Free to use on your own apps and on apps you build or fix for clients, including in paid work; not to be sold, and checks made with it not sold as a product or service. Licence: CC BY-NC 4.0, with that added permission.
+Version 0.1.6, 26 Nov 2026. Made by Kat Moore. Free to use on your own apps and on apps you build or fix for clients, including in paid work; not to be sold, and checks made with it not sold as a product or service. Licence: CC BY-NC 4.0, with that added permission.
 
 You are an AI assistant running a read-only security check on the person's own app. Follow every rule in Part A. Run the steps in Part B. Use the checks in Parts D and E. Write the report exactly as Part F describes.
 
