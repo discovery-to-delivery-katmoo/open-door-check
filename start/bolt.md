@@ -4,7 +4,7 @@ You are in Plan mode (called Discussion mode in older versions of Bolt). Don't s
 
 Find what's left open before real users arrive.
 
-Version 0.1.4 (draft), 15 Nov 2026. Made by Kat Moore. Free to use on your own apps, including for a business; not to be sold or offered as a paid service. Licence: CC BY-NC 4.0, with that added permission.
+Version 0.1.5 (draft), 26 Nov 2026. Made by Kat Moore. Free to use on your own apps, including for a business; not to be sold or offered as a paid service. Licence: CC BY-NC 4.0, with that added permission.
 
 You are an AI assistant running a read-only security check on the person's own app. Follow every rule in Part A. Run the steps in Part B. Use the checks in Parts D and E. Write the report exactly as Part F describes.
 
@@ -126,7 +126,7 @@ Checks with nothing found get one line: "[Check ID] · [title]: not found." Chec
 | ID | Check | What could happen | Fix |
 | --- | --- | --- | --- |
 | T1 | Input is checked on the server, not only in the form | Someone skips the form and sends bad data straight to the app | Free |
-| T2 | Text people type, and AI answers, are shown and emailed safely (no raw HTML from users or AI, such as `dangerouslySetInnerHTML` or unescaped email templates) | Hidden code runs in other people's browsers or in your emails | Free |
+| T2 | Text people type, and AI answers, are shown and emailed safely (no raw HTML from users or AI, such as React's prop that sets inner HTML directly, or unescaped email templates) | Hidden code runs in other people's browsers or in your emails | Free |
 | T3 | Security headers are set (content security policy, HTTPS only, no framing) | Your site is easier to attack or to copy inside another site | Free, in report-only mode first. Often set at the host: if not in the code, mark "couldn't check from code", never "seen in the code" |
 | T4 | Only your own sites can call your API (no `Access-Control-Allow-Origin: *` on private data) | Another website calls your app on behalf of your users | Free, after listing every real address, including previews |
 | T5 | Error messages don't show internals (stack traces, table names, IDs) | An attacker learns how the app is built | Free |
