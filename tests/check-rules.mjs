@@ -71,6 +71,19 @@ for (const rel of peopleRead) {
 const words = checklist.split(/\s+/).filter(Boolean).length;
 check(words < 4000, `SECURITY-CHECK.md has ${words} words; the limit is 4,000`);
 
+// Words a directory policy check may misread, anywhere in the shipped plugin folder.
+{
+  const { readdirSync: rd, statSync: st } = await import("node:fs");
+  const walk = (dir) => rd(join(root, dir)).flatMap((f) => {
+    const rel = `${dir}/${f}`;
+    return st(join(root, rel)).isDirectory() ? walk(rel) : [rel];
+  });
+  for (const rel of walk("plugins/open-door-check")) {
+    if (!/\.(md|json)$/.test(rel)) continue;
+    if (/dangerously|skip-permissions|bypassPermissions/i.test(read(rel))) failures.push(`Policy-sensitive word in ${rel}`);
+  }
+}
+
 // Generated files match the source.
 try {
   execFileSync("node", [join(root, "scripts/build-skill"), "--check"], { stdio: "pipe" });
