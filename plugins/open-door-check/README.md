@@ -137,6 +137,10 @@ It knows Supabase and Firebase in detail, and apps that call an AI model. If you
 - It doesn't change anything. Fixes are prompts you choose to paste.
 - Testing a fix is up to you. Use test accounts and test mode only, never real people's accounts or real payments.
 
+## Works with UX Check
+
+Open Door Check looks at who can get into your app and its data. [UX Check](https://github.com/discovery-to-delivery-katmoo/ux-check) looks at whether people can understand and use it. They don't overlap, and both only read your project.
+
 ## Part of Discovery to Delivery
 
 Open Door Check is one of a set of free tools, one for each step of building a product, from first idea to release. See them all at [kathrynmoore.eu](https://www.kathrynmoore.eu/#products).
