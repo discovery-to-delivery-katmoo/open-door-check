@@ -22,9 +22,9 @@ const skillFrontmatter = [
 
 const startLines = {
   "lovable.md":
-    "You are in Chat mode. Don't switch to Plan mode or edit mode during this check, and don't change any file.",
-  "bolt.md": "You are in Plan mode (called Discussion mode in older versions of Bolt). Don't switch modes during this check, and don't change any file.",
-  "cursor.md": "You are in Ask mode. Don't switch to Agent mode during this check, and don't change any file.",
+    "This check must run in Lovable's Chat mode. If you can edit files right now, stop and ask the person to switch to Chat mode before you read anything. Don't change any file.",
+  "bolt.md": "This check must run in Bolt's Plan mode (called Discussion mode in older versions). If you can edit files right now, stop and ask the person to switch before you read anything. Don't change any file.",
+  "cursor.md": "This check must run in Cursor's Ask mode. If you can edit files right now, stop and ask the person to start a new chat in Ask mode before you read anything. Don't change any file.",
   "claude-chat.md":
     "The project is in the zip I uploaded. Mark the report \"Partial check\": you can't see live settings or anything missing from the zip.",
 };

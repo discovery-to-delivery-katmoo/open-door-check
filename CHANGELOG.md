@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.6 (26 Nov 2026)
+
+- Clearer licence: free on your own apps and on apps you build or fix for clients, including paid work; selling it, or checks made with it, as a product or service is not allowed.
+- The Lovable, Bolt and Cursor versions ask the assistant to check its mode and stop if it can edit, instead of telling it which mode it is in.
+
 ## 0.1.5 (26 Nov 2026)
 
 - T2 describes React's raw-HTML prop in words instead of naming it, because the Claude directory's policy check read its name as a permission-skipping flag.

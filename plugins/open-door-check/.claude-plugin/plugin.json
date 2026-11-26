@@ -1,7 +1,7 @@
 {
   "name": "open-door-check",
   "displayName": "Open Door Check",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Find what's left open before real users arrive. Your AI assistant reads your project, changes nothing, and tells you in plain words what could let strangers in.",
   "author": {
     "name": "Kat Moore"

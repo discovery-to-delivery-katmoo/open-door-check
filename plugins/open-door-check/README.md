@@ -157,6 +157,6 @@ The report may describe weak spots in your app. Please don't post screenshots of
 
 ## About
 
-Made by Kat Moore. Version 0.1.4, November 2026. See [CHANGELOG.md](https://github.com/discovery-to-delivery-katmoo/open-door-check/blob/main/CHANGELOG.md) for what changed.
+Made by Kat Moore. Version 0.1.6, November 2026. See [CHANGELOG.md](https://github.com/discovery-to-delivery-katmoo/open-door-check/blob/main/CHANGELOG.md) for what changed.
 
-You can use it for free on your own apps, including apps for your business. You can share and adapt it, with credit. What you can't do is sell it or offer it as a paid service. Licence: [CC BY-NC 4.0](https://github.com/discovery-to-delivery-katmoo/open-door-check/blob/main/LICENSE), with this added permission from Kat Moore for use on your own business apps.
+You can use it for free on your own apps, and on apps you build or fix for clients, including as part of paid work. You can share and adapt it, with credit. What you can't do is sell it, or sell checks or reports made with it as your own product or service. Licence: [CC BY-NC 4.0](https://github.com/discovery-to-delivery-katmoo/open-door-check/blob/main/LICENSE), with this added permission from Kat Moore.
