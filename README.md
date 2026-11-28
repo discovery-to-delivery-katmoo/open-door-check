@@ -11,17 +11,15 @@ Built with Lovable? Your database is Supabase (Lovable calls it Lovable Cloud), 
 ## What you need
 
 - **An app you've already built**, or started building. The check reads your app's project, so it comes after building, not before.
-- **The tool you built it with.** If that's Lovable, Bolt or Cursor, the check runs right there: pick your tool below.
-- **Built it another way** (another builder, by hand, or with a developer)? Download your project as a zip and use the steps for Claude in your browser. "Claude" there means the normal Claude chat at claude.ai, not Claude Code.
-- **Claude Code** is a separate tool for people who build apps in code. Use that route only if you already use it.
+- **One of these AI tools:** Lovable, Bolt, Cursor, Claude or Claude Code. If you built your app in one of them, use that one. If you built it somewhere else, by hand or with a developer, use Claude: you upload your project as a zip file, so it works for an app made with any tool.
 
 ## How to use it
 
-You don't need to install anything. You copy one page of instructions and paste it into the tool you built your app with. Pick your tool below.
+You don't need to install anything. You copy one page of instructions and paste it into one of the tools below.
 
 Before you start: the check only reads your project. It works in your tool's "ask questions" mode, which can't change anything. If it finds itself in a mode that could change your app, it stops and asks you to switch.
 
-### If you built with Lovable
+### Lovable
 
 1. Open your project in Lovable.
 2. Switch the chat to **Chat** mode. Click the mode picker next to the message box and choose **Chat** ("Ask anything, explore ideas"). Not Build, and not Plan.
@@ -29,23 +27,23 @@ Before you start: the check only reads your project. It works in your tool's "as
 4. Copy all of it: press **Ctrl+A**, then **Ctrl+C** (on a Mac, **Cmd+A**, then **Cmd+C**).
 5. Go back to Lovable, click in the message box, paste (**Ctrl+V** or **Cmd+V**) and press **Enter**.
 
-### If you built with Bolt
+### Bolt
 
 1. Open your project in Bolt.
 2. Click **Plan** next to the message box so it turns blue. In older versions of Bolt this is called **Discussion** mode. It can't change your code.
 3. Open the [Bolt instructions](https://raw.githubusercontent.com/discovery-to-delivery-katmoo/open-door-check/main/start/bolt.md) and copy all of it (**Ctrl+A**, then **Ctrl+C**; on a Mac, **Cmd+A**, then **Cmd+C**).
 4. Paste it into Bolt's message box and press **Enter**.
 
-### If you use Cursor
+### Cursor
 
 1. Open your project in Cursor.
 2. Start a new chat (**Ctrl+I**, or **Cmd+I** on a Mac).
 3. Before you type anything, click the mode menu at the top of the chat (it usually says **Agent**) and choose **Ask**. Do this in a new chat rather than switching halfway through one, because Cursor doesn't always pick up a change of mode mid-chat.
 4. Open the [Cursor instructions](https://raw.githubusercontent.com/discovery-to-delivery-katmoo/open-door-check/main/start/cursor.md), copy all of it, paste it into the chat and press **Enter**.
 
-### Built another way, or prefer Claude: use Claude in your browser
+### Claude
 
-This works with any app, but it's a partial check: Claude sees only the files you give it, not your live settings.
+The Claude chat at claude.ai or in the Claude app. It works for an app made with any tool, because you upload your project as a zip file. Note that it's a partial check: Claude sees only the files you give it, not your live settings.
 
 1. Download your project as a zip file:
    - **Lovable, paid plans:** open the **Code** tab and click **Download codebase** at the bottom of the file list.
@@ -56,9 +54,9 @@ This works with any app, but it's a partial check: Claude sees only the files yo
 3. Click the **+** at the bottom left of the message box and upload the zip file.
 4. Open the [Claude instructions](https://raw.githubusercontent.com/discovery-to-delivery-katmoo/open-door-check/main/start/claude-chat.md), copy all of it, paste it into the message box and press **Enter**.
 
-### If you already use Claude Code
+### Claude Code
 
-Type each line into Claude Code and press **Enter** after each one:
+Claude Code is Anthropic's tool for building apps in code. It's separate from the Claude chat. If you use it, type each line into it and press **Enter** after each one:
 
 ```
 /plugin marketplace add discovery-to-delivery-katmoo/open-door-check
