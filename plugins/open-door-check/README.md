@@ -11,7 +11,9 @@ Built with Lovable? Your database is Supabase (Lovable calls it Lovable Cloud), 
 ## What you need
 
 - **An app you've already built**, or started building. The check reads your app's project, so it comes after building, not before.
-- **One of these AI tools:** Lovable, Bolt, Cursor, Claude or Claude Code. If you built your app in one of them, use that one. If you built it somewhere else, by hand or with a developer, use Claude: you upload your project as a zip file, so it works for an app made with any tool.
+- **An AI tool to run the check in.** There are two ways:
+  - **Inside your project,** in Lovable, Bolt, Cursor or Claude Code. Use this if you built your app with one of them.
+  - **By uploading your project to Claude** (the chat at claude.ai or in the Claude app). This works whatever you built your app with: you download your project as a zip file and upload it.
 
 ## How to use it
 
