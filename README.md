@@ -17,7 +17,7 @@ Built with Lovable? Your database is Supabase (Lovable calls it Lovable Cloud), 
 
 You don't need to install anything. You copy one page of instructions and paste it into one of the tools below.
 
-Before you start: the check only reads your project. It works in your tool's "ask questions" mode, which can't change anything. If it finds itself in a mode that could change your app, it stops and asks you to switch.
+Before you start: the check only reads your project. In Lovable, Bolt and Cursor it runs in the mode that can only chat, not change anything. If it finds itself in a mode that could change your app, it stops and asks you to switch.
 
 ### Lovable
 
@@ -43,16 +43,17 @@ Before you start: the check only reads your project. It works in your tool's "as
 
 ### Claude
 
-The Claude chat at claude.ai or in the Claude app. It works for an app made with any tool, because you upload your project as a zip file. Note that it's a partial check: Claude sees only the files you give it, not your live settings.
+The Claude chat at claude.ai or in the Claude app. It works for an app made with any tool, because you upload your project as a zip file. It's a partial check, though: Claude sees only the files you give it, not your live settings.
 
-1. Download your project as a zip file:
+1. In Claude, open **Settings**, then **Capabilities**, and switch on code execution and file creation. Claude needs this to open zip files.
+2. Download your project as a zip file:
    - **Lovable, paid plans:** open the **Code** tab and click **Download codebase** at the bottom of the file list.
    - **Lovable, free plan:** connect your project to GitHub (the GitHub button at the top of Lovable), open the project on github.com, click the green **Code** button and choose **Download ZIP**.
    - **Bolt:** click your project's name at the top left, then **Export**, then **Download**.
    - **Any other builder:** look for **Export** or **Download** in its menus. If a developer built it, ask them for the project as a zip file.
-2. Open [claude.ai](https://claude.ai) and start a new chat.
-3. Click the **+** at the bottom left of the message box and upload the zip file.
-4. Open the [Claude instructions](https://raw.githubusercontent.com/discovery-to-delivery-katmoo/open-door-check/main/start/claude-chat.md), copy all of it, paste it into the message box and press **Enter**.
+3. Start a new chat in Claude.
+4. Click the **+** at the bottom left of the message box and upload the zip file.
+5. Open the [Claude instructions](https://raw.githubusercontent.com/discovery-to-delivery-katmoo/open-door-check/main/start/claude-chat.md), copy all of it, paste it into the message box and press **Enter**.
 
 ### Claude Code
 
@@ -78,11 +79,10 @@ While the check runs, Claude Code's tools for changing files are switched off.
 2. On a small app this takes a few minutes. On a big one it can take 10 minutes or more.
 3. The report appears in the chat. The part called "What the result means" tells you which problems to fix first.
 4. **Save the report** before you do anything else: copy it into a document of your own (Google Docs, Word, Notes). Keep it private, because it describes where your app is open.
-5. **To fix something:** switch your tool back to its normal mode (Build in Lovable and Bolt, Agent in Cursor). Copy one fix prompt from the report, paste it and send it. Do one fix at a time. Then check your app still works: sign in, open the pages you use most, and try the thing the fix changed. Then do the test the report gives for that fix. In Claude Code, paste fixes into a new, normal chat.
+5. **To fix something:** switch your tool back to its normal mode (Build in Lovable and Bolt, Agent in Cursor). Copy one fix prompt from the report, paste it and send it. Do one fix at a time. Then check your app still works: sign in, open the pages you use most, and try the thing the fix changed. Then do the test the report gives for that fix. If you ran the check in Claude, paste fixes into the tool you build with. In Claude Code, paste them into a new, normal chat.
 6. **If something in the report doesn't make sense,** paste that part back into the same chat and ask "explain this in plain words".
 
 If it stops partway, for example because you hit your tool's usage limit, wait until the limit resets and type **continue**.
-
 
 ## What you get back
 
