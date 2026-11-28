@@ -2,7 +2,7 @@
 
 Find what's left open before real users arrive.
 
-A free security check for apps built with AI tools such as Lovable, Bolt, Cursor and Claude Code. Your AI assistant reads your project, changes nothing, and tells you in plain words what could let strangers in: secret keys in the wrong place, data anyone can read, files anyone can download, admin actions anyone can call. For each problem you get a ready-made prompt to fix it, or a note that a second pair of eyes is needed.
+A free security check for apps built with AI tools such as Lovable, Bolt or Cursor, or built any other way. Your AI assistant reads your project, changes nothing, and tells you in plain words what could let strangers in: secret keys in the wrong place, data anyone can read, files anyone can download, admin actions anyone can call. For each problem you get a ready-made prompt to fix it, or a note that a second pair of eyes is needed.
 
 On a small app it takes a few minutes. You don't need to know how to code, and it's free. It runs in your own AI tool, so it uses that tool's normal allowance: in Lovable, Chat mode uses your free daily chat allowance first, then a small part of a credit per message.
 
